@@ -1,0 +1,14 @@
+{
+  "name": "phaser-games",
+  "version": "1.0.0",
+  "description": "series of phaser games",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aurimas Darguzis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
