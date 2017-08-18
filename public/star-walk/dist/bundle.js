@@ -10640,6 +10640,16 @@ module.exports = function (regExp, replace) {
 "use strict";
 
 
+__webpack_require__(/*! pixi */ 332);
+
+__webpack_require__(/*! p2 */ 334);
+
+var _phaser = __webpack_require__(/*! phaser */ 336);
+
+var _phaser2 = _interopRequireDefault(_phaser);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 /***/ })
 ],[124]);
 //# sourceMappingURL=bundle.js.map
