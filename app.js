@@ -5,13 +5,12 @@ const serveIndex = require('serve-index')
 
 app.use(express.static('./public/'))
 app.use(serveIndex('/public/', {
-    icons: true
+  icons: true
 }))
 
-app.listen(port, function() {
-    console.log('Express server listening on port ' + port)
-    console.log('env = ' + app.get('env') +
+app.listen(port, function () {
+  console.log('Express server listening on port ' + port)
+  console.log('env = ' + app.get('env') +
                 '\n__dirname = ' + __dirname +
                 '\nprocess.cwd = ' + process.cwd())
-
 })
